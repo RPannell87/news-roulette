@@ -30,7 +30,7 @@ function randomUSLink() {
   var randomNumber = Math.floor(Math.random() * usPoliticsArray.length);
   var newUrl = usPoliticsArray[randomNumber];
   var newUSLink = window.open(newUrl, '_blank');
-  window.focus();
+  win.focus();
   location.href = newUSLink;
 }
 /*function randomUSLink() {
